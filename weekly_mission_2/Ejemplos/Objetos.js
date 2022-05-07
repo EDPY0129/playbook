@@ -25,3 +25,29 @@ const phone= {
 
 console.log(phone)
 console.log(phone.specifications[1])
+console.log('\n')
+
+// creación de un objetos con con métodos
+class Object {
+
+} 
+var Ob1 = new Object()
+console.log("Creación de un objeto vacío")
+console.log(Ob1)
+console.log('\n')
+
+// creación de un objetos con con métodos 
+class libro {
+    constructor (name, autor, gender, year){
+        this.name=name
+        this.autor = autor
+        this.gender = gender
+        this.year = year
+    }
+}
+
+var libro1 = new libro("Mi negro pasado", "Laura Esquivel", "Realismo magico", "2000")
+console.log(libro1)
+
+var libro2 = new libro("Mitologia griega: cuna de occidente", "Javier Tapia", "Mitología", "2021")
+console.log(libro2)
